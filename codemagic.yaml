@@ -2,7 +2,7 @@ workflows:
   android-sonarcloud-gradle:
     name: Andoid Sonarcloud gradle
     instance_type: linux_x2
-    environment:
+    #environment:
       #vars:
         #SONAR_TOKEN: Encrypted(Z0FBQUFBQmhHcXlJSGVwRVVmWF9GNVdGaWR3Z0M2ZVdWbFRUd201MHF2bHdIeTZXbjU2ZXhqUEw4MGlxSlRHQ0h1T1hiNkFrSUlhTHFjdDhaT2dRd29CR1Q0LXdZMkdLUElBOHRsc1p1WFczb2V1c1poczFlUTJybHlla1ZqemU2azE1SGpzd08xelE=)
         #SONAR_PROJECT_KEY: Encrypted(Z0FBQUFBQmhHcXp6MFBCVHo3N3JGYnJRSVpzdm9ES2FQNENmVnZtZFBhQTQ1UVhBckQxakdOTFphM21ZZnRHVGJxeTdRNEllTW5ZUDlneTJ1cEZSbGZsZG1WUWJhcjFwNjVRamdWcTFTX0JIaGJ0OWQwdm04T3l5Q2hoS1RuSFBEWW90SUNWQndSUElCNDNyRmQtNzFJN2kxa1otTTNDeEZ3PT0=)
